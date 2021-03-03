@@ -1,0 +1,25 @@
+{
+  "name": "nutrition-graphql-server",
+  "version": "1.0.0",
+  "description": "graphql api endpoint for nutrition data",
+  "main": "index.js",
+  "repository": "https://github.com/asrithajashti/walmart-test.git",
+  "author": "Asritha jashti<jasritha511@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "build": "tsc -p .",
+    "start:watch": "nodemon --inspect src/index.ts"
+  },
+  "dependencies": {
+    "apollo-server-express": "^2.19.2",
+    "express": "^4.17.1",
+    "graphql": "^15.4.0"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.21",
+    "nodemon": "^2.0.7",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.1.3"
+  }
+}
